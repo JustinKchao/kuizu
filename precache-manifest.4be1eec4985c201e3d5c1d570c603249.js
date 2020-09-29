@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7237d99a497df1540bd9105a2a19eb78",
+    "revision": "d125031777be64f99787b14ac6e129f3",
     "url": "/kuizu/index.html"
   },
   {
-    "revision": "7794c82c0b061c0b230e",
+    "revision": "66a7ae56e57ba72a4476",
     "url": "/kuizu/static/css/main.1ee23c45.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kuizu/static/js/2.e17681eb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7794c82c0b061c0b230e",
-    "url": "/kuizu/static/js/main.c3339d38.chunk.js"
+    "revision": "66a7ae56e57ba72a4476",
+    "url": "/kuizu/static/js/main.18aa7644.chunk.js"
   },
   {
     "revision": "959f984aa513e5449c07",
