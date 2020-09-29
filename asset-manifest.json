@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/kuizu/static/css/main.1ee23c45.chunk.css",
+    "main.js": "/kuizu/static/js/main.c3339d38.chunk.js",
+    "main.js.map": "/kuizu/static/js/main.c3339d38.chunk.js.map",
+    "runtime-main.js": "/kuizu/static/js/runtime-main.c76c4f5d.js",
+    "runtime-main.js.map": "/kuizu/static/js/runtime-main.c76c4f5d.js.map",
+    "static/js/2.e17681eb.chunk.js": "/kuizu/static/js/2.e17681eb.chunk.js",
+    "static/js/2.e17681eb.chunk.js.map": "/kuizu/static/js/2.e17681eb.chunk.js.map",
+    "index.html": "/kuizu/index.html",
+    "precache-manifest.a11a7456f077275a1035f64e53e54b29.js": "/kuizu/precache-manifest.a11a7456f077275a1035f64e53e54b29.js",
+    "service-worker.js": "/kuizu/service-worker.js",
+    "static/css/main.1ee23c45.chunk.css.map": "/kuizu/static/css/main.1ee23c45.chunk.css.map",
+    "static/js/2.e17681eb.chunk.js.LICENSE.txt": "/kuizu/static/js/2.e17681eb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c76c4f5d.js",
+    "static/js/2.e17681eb.chunk.js",
+    "static/css/main.1ee23c45.chunk.css",
+    "static/js/main.c3339d38.chunk.js"
+  ]
+}
