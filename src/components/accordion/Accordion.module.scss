@@ -1,0 +1,113 @@
+@import "../../global";
+
+.Container {
+  display: block;
+}
+
+.Title {
+  @extend .shadow;
+  width: calc(100% - 50px);
+  border-style: none;
+  border-width: 1px;
+  border-color: #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-right: 5px;
+  margin-bottom: 13px;
+  background-color: #f3f3f3;
+  padding: 10px 10px 10px 18px;
+  // box-shadow: 0 4px 8px 0 #{$shadow_color1}, 0 6px 20px 0 #{$shadow_color2};
+  &Content {
+    margin: {
+      top: 9px;
+      bottom: 0.625rem;
+      left: 0;
+    }
+    font: {
+      size: 28px;
+      weight: 300;
+      variant: small-caps;
+    }
+    line-height: 1.5rem;
+    color: #5a5a5a;
+  }
+}
+
+.Item {
+  @extend .shadow;
+  width: calc(100% - 50px);
+  border: {
+    style: none;
+    width: 1px;
+    color: #ccc;
+    radius: 5px;
+  }
+  margin-top: 0;
+  margin-bottom: 13px;
+  background-color: #f3f3f3;
+  overflow: hidden;
+  padding: 10px 10px 5px 18px;
+  &Trigger {
+    width: 100%;
+    overflow: hidden;
+    &Name {
+      margin-top: 3px;
+      overflow: hidden;
+      float: left;
+      padding-bottom: 8px;
+      font: {
+        size: 24px;
+        weight: 400;
+        variant: small-caps;
+      }
+      line-height: 1.4;
+      color: #00447c;
+    }
+    &Arrow {
+      $parrent-arrow: &;
+      max-height: 14px;
+      max-width: 14px;
+      float: right;
+      line-height: 1;
+      margin-top: 7px;
+      fill: #444;
+      transition: transform ease 0.5s;
+      &Normal {
+        @extend #{$parrent-arrow};
+        transform: rotate(0deg);
+        transform-origin: center;
+      }
+      &Rotate {
+        @extend #{$parrent-arrow};
+        transform-origin: center;
+        transform: rotate(180deg);
+      }
+    }
+  }
+  &Body {
+    clear: both;
+    overflow: hidden;
+    transition: height ease 1s;
+    &Row {
+      display: block;
+      border: 0;
+      margin-left: 10px;
+      background-color: transparent;
+      width: 100%;
+      clear: both;
+      white-space: nowrap;
+      font: {
+        size: 16px;
+        weight: 300;
+        variant: small-caps;
+      }
+      line-height: 2.125rem;
+      color: #000;
+      text-align: left;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

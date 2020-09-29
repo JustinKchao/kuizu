@@ -1,0 +1,15 @@
+@import "../../global";
+
+.Container {
+  @extend .shadow;
+  // grid-row: 1;
+  // grid-column: 1 / span 4;
+  display: block;
+  margin: 10px 10px 0px 10px;
+  background-color: $grey_color3;
+  height: #{$header_panel_height -10px};
+}
+
+.Logo {
+  margin: 20px 0px 10px 20px;
+}

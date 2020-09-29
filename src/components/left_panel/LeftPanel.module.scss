@@ -1,0 +1,12 @@
+@import "../../global";
+
+.Container {
+  // grid-row: 2;
+  // grid-column: 1;
+  display: block;
+  margin: 5px 0px 5px 10px;
+  width: calc(#{$left_panel_width} - 10px);
+  height: calc(100% - 10px);
+  // background-color: blue;
+  // transition: width 0.5s;
+}

@@ -1,0 +1,36 @@
+@import "../../global";
+
+.Container {
+  @extend .shadow;
+  // grid-row: 2;
+  // grid-column: 3;
+  display: block;
+  margin: 5px 10px 5px 5px;
+  padding: 100px 200px;
+  // margin: 10px;
+  width: calc(100% -400px);
+  height: calc(100% - 10px);
+  background-color: white;
+  // border: {
+  //   radius: 10px;
+  //   color: $grey_color6;
+  //   width: 2px;
+  //   style: solid;
+  // }
+}
+
+.Message {
+  display: block;
+  font-size: #{$normal_font_size};
+}
+
+.Disclaimer {
+  margin-top: 60px;
+  display: block;
+  text-align: center;
+  font: {
+    style: italic;
+    family: KaTex_Main, "Times New Roman", Times, serif;
+    size: #{$normal_font_size};
+  }
+}

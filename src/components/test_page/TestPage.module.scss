@@ -1,0 +1,92 @@
+@import "../../global";
+
+.Container {
+  display: block;
+  margin: 5px 10px 5px 5px;
+  width: calc(100% - 15px - 40px);
+  height: calc(100% - 10px);
+  background-color: white;
+  font-size: #{$normal_font_size};
+  font-family: "Mathjax Tex", "Times New Roman", Times, serif;
+  font-weight: 400;
+  padding-left: 10px;
+  padding-right: 30px;
+  overflow: auto;
+}
+
+.MainHeader {
+  @extend .shadow;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding: 10px 0px;
+  border: 1px solid #{$grey_color5};
+  background-color: #{$grey_color5};
+  font: {
+    size: #{$LARGE_font_size};
+    weight: 500;
+  }
+}
+
+.SectionHeader {
+  @extend .shadow;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: -30px;
+  border: 1px solid #{$grey_color5};
+  background-color: #{$grey_color5};
+  font: {
+    size: #{$large_font_size};
+    weight: 500;
+  }
+}
+
+.Direction {
+  padding: 30px 200px 30px 200px;
+  border: 0.5px solid #{$grey_color5};
+  text-align: center;
+  font-size: #{$normal_font_size};
+  font-style: italic;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+.info {
+  font-weight: bold;
+  text-align: center;
+  margin: 80px 0px -40px 0px;
+}
+
+ol > li {
+  margin-top: 60px;
+}
+
+ol > li > ol {
+  columns: 2;
+  list-style-type: upper-alpha;
+  margin-top: 10px;
+}
+
+ol > li > ol > li {
+  margin-top: 0px;
+}
+ol > li > div {
+  margin-top: 15px;
+}
+
+.line {
+  width: 112px;
+  height: 20px;
+  border-bottom: 1px solid black;
+  position: absolute;
+}
+
+.vspace {
+  margin-top: 200px;
+}
+
+td {
+  padding: 0px 20px 0px 0px;
+}

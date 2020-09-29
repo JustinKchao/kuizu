@@ -1,0 +1,116 @@
+@import "./global";
+
+.AppContainer {
+  grid-template-rows:
+    #{$header_panel_height} calc(
+      100% - #{$header_panel_height} - #{$pseudo_width}
+    )
+    #{$pseudo_width};
+  grid-template-columns:
+    #{$left_panel_width} #{$grab_width} calc(
+      100% - #{$left_panel_width} - #{$grab_width} - #{$pseudo_width}
+    )
+    #{$pseudo_width};
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  transition: grid-template-columns 1s;
+
+  font-family: Roboto, sans-serif;
+
+  // padding: 5px;
+}
+
+// .HeaderContainer {
+//   grid-row: 1;
+//   grid-column: 1 / span 4;
+//   display: block;
+//   margin: 10px 10px 0px 10px;
+//   background-color: $grey_color3;
+//   height: #{$header_panel_height -10px};
+// }
+
+// .LeftPanelContainer {
+//   grid-row: 2;
+//   grid-column: 1;
+//   display: block;
+//   margin: 5px 0px 5px 10px;
+//   width: calc(#{$left_panel_width} - 10px);
+//   height: calc(100% - 10px);
+//   background-color: blue;
+//   // transition: width 0.5s;
+// }
+
+.LeftGrabContainer {
+  grid-row: 2;
+  grid-column: 2;
+  display: block;
+  width: #{grab_width};
+  height: 100%;
+  background-color: $grey_color3;
+  border-left: {
+    color: $grey_color4;
+    width: 1px;
+    style: solid;
+  }
+  border-right: {
+    color: $grey_color4;
+    width: 1px;
+    style: solid;
+  }
+}
+
+// .TestPageContainer {
+//   grid-row: 2;
+//   grid-column: 3;
+//   display: block;
+//   margin: 5px 10px 5px 5px;
+//   // margin: 10px;
+//   width: calc(100% - 15px);
+//   height: calc(100% - 10px);
+//   background-color: red;
+//   // border: {
+//   //   radius: 10px;
+//   //   color: $grey_color6;
+//   //   width: 2px;
+//   //   style: solid;
+//   // }
+// }
+
+.BottomPanel {
+  display: block;
+  grid-row: 3;
+  grid-column: 1 / span 4;
+  height: #{$pseudo_width};
+  width: calc(100vw - 0px);
+}
+
+.RightMostPanel {
+  display: block;
+  grid-row: 1 / span 3;
+  grid-column: 4;
+  height: 100vh;
+  width: #{$pseudo_width};
+}
+
+.Arrow {
+  $parent-arrow: &;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-block;
+  width: calc(#{$grab_width} - 2px);
+  fill: $grey_color7;
+  transition: transform ease 1s;
+  &Normal {
+    @extend #{$parent-arrow};
+    transform: rotateY(0deg);
+  }
+  &Rotate {
+    @extend #{$parent-arrow};
+    transform: rotateY(180deg);
+  }
+}
