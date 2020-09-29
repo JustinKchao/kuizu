@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/kuizu/static/css/main.1ee23c45.chunk.css",
-    "main.js": "/kuizu/static/js/main.b82b66cc.chunk.js",
-    "main.js.map": "/kuizu/static/js/main.b82b66cc.chunk.js.map",
+    "main.js": "/kuizu/static/js/main.18aa7644.chunk.js",
+    "main.js.map": "/kuizu/static/js/main.18aa7644.chunk.js.map",
     "runtime-main.js": "/kuizu/static/js/runtime-main.c76c4f5d.js",
     "runtime-main.js.map": "/kuizu/static/js/runtime-main.c76c4f5d.js.map",
-    "static/js/2.334d8211.chunk.js": "/kuizu/static/js/2.334d8211.chunk.js",
-    "static/js/2.334d8211.chunk.js.map": "/kuizu/static/js/2.334d8211.chunk.js.map",
+    "static/js/2.e17681eb.chunk.js": "/kuizu/static/js/2.e17681eb.chunk.js",
+    "static/js/2.e17681eb.chunk.js.map": "/kuizu/static/js/2.e17681eb.chunk.js.map",
     "index.html": "/kuizu/index.html",
-    "precache-manifest.85fa2749aa0d402f0ba5e90691594e7c.js": "/kuizu/precache-manifest.85fa2749aa0d402f0ba5e90691594e7c.js",
+    "precache-manifest.4be1eec4985c201e3d5c1d570c603249.js": "/kuizu/precache-manifest.4be1eec4985c201e3d5c1d570c603249.js",
     "service-worker.js": "/kuizu/service-worker.js",
     "static/css/main.1ee23c45.chunk.css.map": "/kuizu/static/css/main.1ee23c45.chunk.css.map",
-    "static/js/2.334d8211.chunk.js.LICENSE.txt": "/kuizu/static/js/2.334d8211.chunk.js.LICENSE.txt"
+    "static/js/2.e17681eb.chunk.js.LICENSE.txt": "/kuizu/static/js/2.e17681eb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c76c4f5d.js",
-    "static/js/2.334d8211.chunk.js",
+    "static/js/2.e17681eb.chunk.js",
     "static/css/main.1ee23c45.chunk.css",
-    "static/js/main.b82b66cc.chunk.js"
+    "static/js/main.18aa7644.chunk.js"
   ]
 }
