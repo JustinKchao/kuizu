@@ -5,7 +5,7 @@ import React, {
   useContext,
   useState,
 } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 import styles from "./App.module.scss";
 
@@ -119,7 +119,7 @@ const App = () => {
   console.log("PUBLIC_ENV", process.env.PUBLIC_ENV);
 
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <div
         className={styles.AppContainer}
         style={
